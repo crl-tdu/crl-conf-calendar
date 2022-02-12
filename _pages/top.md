@@ -46,7 +46,7 @@ permalink: /
       <p>
         本ページの内容はGitHubで管理しております。ご指摘やご要望は、IssueやPull Requestでぜひお寄せください。
       </p>
-      <a href="https://www.github.com/kn1cht/doctor-funding-calendar" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/kn1cht/doctor-funding-calendar/issues" class="btn btn-light" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github" aria-hidden="true"></i>
         GitHubで編集を提案
       </a>
@@ -54,7 +54,7 @@ permalink: /
   </div>
 </div>
 
-<div class="container bg-white rounded mt-5 mb-10 pt-3 pb-3">
+<div class="container bg-white rounded mt-5 mb-10 p-4">
   <div class="row justify-content-center">
     <div class="col-9 text-center p-3">
       {% include list.html category=category %}
