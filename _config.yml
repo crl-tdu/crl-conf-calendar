@@ -1,6 +1,6 @@
 # SYSTEM
 url: "https://kn1cht.github.io"
-baseurl: /doctor-funding
+baseurl: /doctor-funding-calendar
 lang: ja
 
 # SITE
@@ -17,7 +17,12 @@ keywords: >-
   Doctoral Students Funding Calendar,
   academic, research, technology,
 
-copyright: "Copyright (C) HCI Calendar, Doctoral Students Funding Calendar. All rights reserved."
+copyright: |-
+  Copyright (C)
+  <a href="https://github.com/hci-calendar/hci-calendar.github.io" target="_blank" rel="noopener noreferrer">
+  HCI Calendar</a>,
+  <a href="https://www.github.com/kn1cht/doctor-funding-calendar" target="_blank" rel="noopener noreferrer">
+  Doctoral Students Funding Calendar</a>. All rights reserved.
 
 # INCLUDE PAGES
 include: ['_pages']
