@@ -6,12 +6,13 @@
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap4.min.css">
 
   <!-- jquery -->
   <script
-			  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-			  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-			  crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
 
   <!-- popper -->
   <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -22,7 +23,20 @@
   <!-- calendar @ asset -->
   <script src="{{'/assets/js/calendar.js' | relative_url }}"></script>
 
+  <!-- datatables -->
+  <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap4.min.js"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+
+  <script>
+    $(document).ready(function() {
+      $("#table").DataTable({
+        lengthMenu: [ 5, 10, 15, 20],
+        pageLength: 10,
+      });
+    });
+  </script>
 </head>

@@ -1,4 +1,4 @@
-# HCI Calendar
+# Doctoral Students Funding Calendar
 
 [HCI Calendar](https://hci-calendar.github.io) helps you to find the timely conference for your research.
 
@@ -8,7 +8,7 @@ This website is written in Jekyll and hosted on Github Pages.
 
 Thank you for updating conference information.
 
-Conference data is stored as `_data/conference/*.yml`, where `*` is an abbreviation of each conference.
+Conference data is stored as `_data/program/*.yml`, where `*` is an abbreviation of each conference.
 
 Please append new conference in `_data/category.yml` when you add it. Then, the conference will appear on the website.
 
