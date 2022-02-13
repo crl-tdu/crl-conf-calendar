@@ -25,13 +25,13 @@ $border-color: #aaa;
   opacity: 0.12;
 }
 
-@media (max-width: 540px) {
-  p, span, a.btn {font-size: 0.7rem;}
-}
+// @media (max-width: 540px) {
+//   p, span, a.btn {font-size: 0.7rem;}
+// }
 
-@media (max-width: 720px) {
-  p, span, a.btn {font-size: 0.85rem;}
-}
+// @media (max-width: 720px) {
+//   p, span, a.btn {font-size: 0.85rem;}
+// }
 
 $container-max-widths: (
   sm: 540px,
