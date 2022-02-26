@@ -32,8 +32,11 @@ permalink: /
           <li>
             奨学金（研究支援とは意味合いが異なる場合が多いため。
             <a href="https://washimaru-univ.com/minkankyufu-d-2022/" target="_blank" rel="noopener noreferrer">
-            博士課程学生が利用できる各種民間奨学金の情報をまとめたページ</a>があります）
+            博士課程学生が利用できる各種民間奨学金の情報をまとめたページ</a>や、
+            <a href="https://xplane.jp/application-prep-scholarship-list/" target="_blank" rel="noopener noreferrer">
+            海外留学を対象とする奨学金の情報をまとめたページ</a>があります）
           </li>
+          <li>海外留学支援を目的としたもの（）</li>
           <li>所属先によって支援内容に共通性がないもの（例：各大学独自のRA・フェローシップ。これらを含めだすとキリがないので……）</li>
           <li>臨時のもの（例：学生等の学びを継続するための緊急給付金）</li>
         </ul>
