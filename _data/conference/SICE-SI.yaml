@@ -1,0 +1,18 @@
+abbr-name: SICE-SI
+full-name: 計測自動制御学会 システムインテグレーション部門講演会
+years:
+-
+  year: 2022
+  date: "2022-12-14"
+  url : https://sice-si.org/conf/si2022/
+  info: Niigata, Japan
+  submissions:
+  -
+    type: Register
+    date: "2022-08-29"
+  -
+    type: Paper
+    date: "2022-09-26"
+  # -
+  #   type: Camera Ready
+  #   date: "2022-05-27"

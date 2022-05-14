@@ -1,33 +1,47 @@
 abbr-name: SAMCON
-full-name: IEEJ SAMCON
+full-name: IEEJ international workshop on Sensing, Actuation, Motion Control, and Optimization
+# description: >-
+  # The most famous HCI conference in the world.
 years:
 -
-  year: 2019
-  date: "2019-03-11"
-  url : https://www.augmented-human.com/
-  info: Reims Champagne-Ardenne, France
+  year: 2022
+  date: "2022-03-08"
+  url : http://www2.iee.or.jp/~diic/samcon/
+  info: Saitama, Japan
   submissions:
   -
     type: Paper
-    date: "2019-01-01"
+    date: "2021-12-06"
   -
     type: Poster
-    date: "2019-01-01"
+    date: "2022-01-24"
   -
-    type: Demo
-    date: "2019-01-01"
+    type: Acceptance (Paper)
+    date: "2022-01-21"
+  -
+    type: Acceptance (Poster)
+    date: "2022-02-01"
+  -
+    type: Final
+    date: "2022-02-14"
 -
-  year: 2018
-  date: "2018-02-07"
-  url : http://www.sigah.org/AH2018/
-  info: --% - Seoul, Korea
+  year: 2021
+  date: "2022-03-10"
+  url : http://www2.iee.or.jp/~diic/samcon/2021/index.html
+  info: Chiba, Japan
   submissions:
   -
     type: Paper
-    date: "2017-11-01"
+    date: "2020-12-08"
   -
     type: Poster
-    date: "2017-11-01"
+    date: "2021-01-27"
   -
-    type: Demo
-    date: "2017-11-01"
+    type: Acceptance (Paper)
+    date: "2022-01-18"
+  -
+    type: Acceptance (Poster)
+    date: "2022-02-03"
+  -
+    type: Final
+    date: "2022-02-15"

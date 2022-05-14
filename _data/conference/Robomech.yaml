@@ -2,32 +2,17 @@ abbr-name: Robomech
 full-name: 日本機械学会 ロボティクス・メカトロニクス講演会
 years:
 -
-  year: 2019
-  date: "2019-03-11"
-  url : https://www.augmented-human.com/
-  info: Reims Champagne-Ardenne, France
+  year: 2022
+  date: "2022-06-01"
+  url : https://robomech.org/2022/
+  info: Hokkaido, Japan
   submissions:
   -
-    type: Paper
-    date: "2019-01-01"
-  -
-    type: Poster
-    date: "2019-01-01"
-  -
-    type: Demo
-    date: "2019-01-01"
--
-  year: 2018
-  date: "2018-02-07"
-  url : http://www.sigah.org/AH2018/
-  info: --% - Seoul, Korea
-  submissions:
+    type: Register
+    date: "2022-01-31"
   -
     type: Paper
-    date: "2017-11-01"
+    date: "2022-02-28"
   -
-    type: Poster
-    date: "2017-11-01"
-  -
-    type: Demo
-    date: "2017-11-01"
+    type: Camera Ready
+    date: "2022-05-27"

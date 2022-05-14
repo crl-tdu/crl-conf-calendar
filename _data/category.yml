@@ -5,37 +5,18 @@
 
 Domestic:
   - Robomech
+  - SICE-SI
+  - IEEJ-C
+  - IEEJ-D
 
 International:
   - SAMCON
-  
+  - INTERACT
 
-HCI:
-- ACMMM
-- AH
-- CHI
-- CSCW
-- CUI
-- DIS
-- HAI
-- HRI
-- INTERACT
-- ISS
-- ISWC
-- IUI
-- MobileHCI
-- TEI
-- Ubicomp
-- UIST
-
-VR:
+Haptics:
 - Eurohaptics
 - Haptics_Symposium
-- IEEE_VR
-- ISMAR
-- VRST
 - WHC
 
-CG:
-- SIGGRAPH
-- SIGGRAPH_Asia
+VR:
+  - IEEE_VR
