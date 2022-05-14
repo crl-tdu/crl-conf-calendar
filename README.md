@@ -1,6 +1,6 @@
-# HCI Calendar
+# CRL Conf Calendar
 
-[HCI Calendar](https://hci-calendar.github.io) helps you to find the timely conference for your research.
+[CRL Conf Calendar](https://crl-tdu.github.io/crl-conf-calendar/) helps you to find the timely conference for your research.
 
 This website is written in Jekyll and hosted on Github Pages.
 
@@ -42,3 +42,6 @@ years:
 - April 15, 2021
   - New design with Bootstrap v5
   - Data file separated
+
+# Original
+This repo is forked from [HCI Callendar](https://hci-calendar.github.io/)

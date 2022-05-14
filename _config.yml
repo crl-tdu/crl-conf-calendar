@@ -1,9 +1,9 @@
 # SYSTEM
-url: "https://hci-calendar.github.io"
+url: "https://crl-tdu.github.io/crl-conf-calendar/"
 baseurl: ""
 
 # SITE
-title: HCI Calendar
+title: CRL Conference Calendar
 
 description: >-
   HCI Calendar helps you to find the timely conference for your research.
@@ -13,7 +13,7 @@ message1: >-
 
 message2: >-
   This site provides last dates posted on our database.<br/>
-  You can help us to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>.
+  You can help us to edit on <a href="https://github.com/crl-tdu/crl-conf-calendar">GitHub</a>.
 
 keywords: >-
   HCI Calendar,
