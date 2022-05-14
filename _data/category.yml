@@ -3,6 +3,13 @@
 # Duplication over categories is allowed.
 ###
 
+Domestic:
+  - Robomech
+
+International:
+  - SAMCON
+  
+
 HCI:
 - ACMMM
 - AH
