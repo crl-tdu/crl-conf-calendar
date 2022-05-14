@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HCI Calendar
+title: CRL Conference Calendar
 permalink: /
 ---
 

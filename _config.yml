@@ -1,6 +1,6 @@
 # SYSTEM
-url: "https://crl-tdu.github.io/crl-conf-calendar/"
-baseurl: ""
+url: "https://crl-tdu.github.io"
+baseurl: "/crl-conf-calendar"
 
 # SITE
 title: CRL Conference Calendar
