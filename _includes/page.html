@@ -1,0 +1,33 @@
+
+<div class="container bg-white rounded p-4">
+  <div class="row justify-content-center">
+    <div class="col-9 text-center p-3">
+      <h1 class="display-1 text-center mt-3 mb-5">
+        {{page.title}}
+      </h1>
+      <p class="fw-light text-center">
+        {{ site.message1 }}
+      </p>
+      <p class="fw-light text-center">
+        {{ site.message2 }}
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-9 text-center p-3">
+      {% include list.html category=include.category %}
+    </div>
+  </div>
+</div>
+
+<!-- Calendars in Category -->
+{% include calendar.html category=include.category title="Conference" type="Conference" %}
+{% include calendar.html category=include.category title="Paper submission" type="Paper" %}
+{% include calendar.html category=include.category title="Demo submission" type="Demo" %}
+{% include calendar.html category=include.category title="Poster submission" type="Poster" %}
+
+<!-- Conference Information with submission dates -->
+{%- for item in site.data.category[include.category] -%}
+{%- assign conf = item -%}
+{% include conference.html name=conf %}
+{%- endfor -%}

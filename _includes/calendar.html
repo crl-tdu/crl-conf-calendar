@@ -1,10 +1,11 @@
-{%- assign months = "4月,5月,6月,7月,8月,9月,10月,11月,12月,冬～春,3月" | split: "," -%}
+{%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
 
 <div class="container bg-white rounded mt-5 mb-10 pt-3 pb-3">
   <div class="row justify-content-md-center text-center p-2">
 
+    {%- assign type = include.type -%}
     {%- assign category = include.category -%}
-    {% assign programs = site.data.category[category] %}
+    {% assign confs = site.data.category[category] %}
 
     <div class="col-md-10">
       <h3 class="p-2">{{ include.title }}</h3>
@@ -17,7 +18,7 @@
         <div class="row">
           {%- for col-i in (0..3) -%}
           {%- assign month-i = row-i | times: 4 | plus: col-i -%}
-          {%- assign month = months[month-i] -%}
+          {%- assign month = months[month-i] | date: "%B" -%}
 
           <div class="col-3">
             <div class="container p-0">
@@ -29,17 +30,37 @@
               <div class="row" style="min-height:5.5em;">
                 <div class="col-12 p-1">
 
-                  {%- for program in programs -%}
-                  {% assign programdata = site.data.program[program] %}
-                  {% capture display_name %}{{programdata.abbr-name}}
-                  {% endcapture %}
-                  {% if programdata.month == month %}
-                  <a href="#{{ program }}" style="text-decoration: none;"
-                      title="{{display_name}}">
-                    <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
-                  </a>
-                  {% endif %}
-                  {% endfor %}
+    {%- for conf in confs -%}
+    {% assign confdata = site.data.conference[conf] %}
+    {% capture display_name %}{{confdata.abbr-name}} {{confdata.years[0].year}}
+    {% endcapture %}
+
+    {% if include.type == "Conference" %}
+
+      {% assign s_month =  confdata.years[0].date | date: "%B" %}
+      {% if s_month == month %}
+      <a href="#{{ conf }}" style="text-decoration: none;"
+         title="{{display_name}}">
+        <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
+      </a>
+      {% endif %}
+
+    {% else %}
+
+      {% for submission in confdata.years[0].submissions %}
+      {% assign s_month =  submission.date | date: "%B" %}
+      {% if s_month == month %}
+      {% if submission.type contains include.type %}
+      <a href="#{{ conf }}" style="text-decoration: none;"
+         title="{{ display_name }}">
+        <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
+      </a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+
+    {% endif %}
+    {% endfor %}
 
                 </div>
               </div>
@@ -50,27 +71,5 @@
       </div>
     </div>
     {%- endfor -%}
-    <div class="d-flex col-md-10 m-2 p-0" style="background-color: #eee;">
-      <div class="col-3 my-2 px-1">
-        <p class="m-0 small"><b>不明・不定：</b></p>
-      </div>
-      {%- for program in programs -%}
-      {% assign programdata = site.data.program[program] %}
-      {% capture display_name %}{{programdata.abbr-name}}
-      {% endcapture %}
-      {% if programdata.month == "不明・不定" %}
-      <div class="col-3 my-2 px-1">
-        <a  href="#{{ program }}" style="text-decoration: none;"
-            title="{{display_name}}">
-          <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <small>
-      ※ カレンダーは目安です。特に、秋入学の方は選考スケジュールが大きく異なる場合があります。
-    </small>
   </div>
 </div>
