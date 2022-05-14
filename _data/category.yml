@@ -2,6 +2,17 @@
 # Please write conference names as same in `_data/conference/*.yml`
 # Duplication over categories is allowed.
 ###
+ALL:
+  - Robomech
+  - SICE-SI
+  - IEEJ-C
+  - IEEJ-D
+  - SAMCON
+  - INTERACT
+  - Eurohaptics
+  - Haptics_Symposium
+  - WHC
+  - IEEE_VR
 
 Domestic:
   - Robomech
