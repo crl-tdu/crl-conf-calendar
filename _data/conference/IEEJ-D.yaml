@@ -1,15 +1,10 @@
 abbr-name: IEEJ-D
 full-name: 電気学会 産業応用部門大会
 years:
--
-  year: 2022
-  date: "2022-08-30"
-  url : https://gakkai-web.net/jiasc/program/hp22/index.html
-  info: Tokyo, Japan
-  submissions:
-  -
-    type: Paper
-    date: "2022-06-03"
-  # -
-  #   type: Camera Ready
-  #   date: "2022-05-27"
+  - year: 2022
+    date: "2022-08-30"
+    url : https://gakkai-web.net/jiasc/program/hp22/index.html
+    info: Tokyo, Japan
+    submissions:
+      - type: Paper
+        date: "2022-06-03"

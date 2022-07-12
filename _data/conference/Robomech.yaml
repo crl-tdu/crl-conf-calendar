@@ -1,18 +1,14 @@
 abbr-name: Robomech
 full-name: 日本機械学会 ロボティクス・メカトロニクス講演会
 years:
--
-  year: 2022
-  date: "2022-06-01"
-  url : https://robomech.org/2022/
-  info: Hokkaido, Japan
-  submissions:
-  -
-    type: Register
-    date: "2022-01-31"
-  -
-    type: Paper
-    date: "2022-02-28"
-  -
-    type: Camera Ready
-    date: "2022-05-27"
+  - year: 2022
+    date: "2022-06-01"
+    url : https://robomech.org/2022/
+    info: Hokkaido, Japan
+    submissions:
+      - type: Register
+        date: "2022-01-31"
+      - type: Paper
+        date: "2022-02-28"
+      - type: Camera Ready
+        date: "2022-05-27"

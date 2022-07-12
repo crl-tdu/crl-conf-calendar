@@ -1,18 +1,12 @@
 abbr-name: IEEJ-C
 full-name: 電気学会 電子・情報・システム部門大会
 years:
--
-  year: 2022
+- year: 2022
   date: "2022-08-30"
   url : https://www.iee.jp/eiss/conf/conf2022
   info: Hiroshima, Japan
   submissions:
-  -
-    type: Register
-    date: "2022-05-15"
-  -
-    type: Paper
-    date: "2022-06-15"
-  # -
-  #   type: Camera Ready
-  #   date: "2022-05-27"
+    - type: Register
+      date: "2022-05-15"
+    - type: Paper
+      date: "2022-06-15"
