@@ -17,6 +17,6 @@ years:
     url: https://www.icra2024.org/
     info: Yokohama, Japan
     submissions:
-      - type: Paper
-        date: "TBD"
     -
+      type: Paper
+      date: "TBD"
