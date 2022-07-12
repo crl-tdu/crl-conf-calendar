@@ -1,0 +1,13 @@
+abbr-name: IROS
+full-name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+years:
+-
+  year: 2023
+  date: "2023-09-29"
+  url : https://www.ieee-ras.org/conferences-workshops/upcoming-conferences
+  info: Detroit, Michigan, USA
+  submissions:
+  -
+    type: Paper
+    date: "TBD"
+  -
