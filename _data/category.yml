@@ -26,11 +26,18 @@ Domestic:
 International:
   - SAMCON
   - INTERACT
+  - Eurohaptics
+  - Haptics_Symposium
+  - WHC
+  - IEEE_VR
+  - IROS
+  - HRI
+  - ICRA
 
 Haptics:
-- Eurohaptics
-- Haptics_Symposium
-- WHC
+  - Eurohaptics
+  - Haptics_Symposium
+  - WHC
 
 VR:
   - IEEE_VR
