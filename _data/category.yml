@@ -14,6 +14,7 @@ ALL:
   - WHC
   - IEEE_VR
   - IROS
+  - HRI
 
 Domestic:
   - Robomech
@@ -35,3 +36,4 @@ VR:
 
 Robotics:
   - IROS
+  - HRI

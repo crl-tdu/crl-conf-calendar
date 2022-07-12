@@ -1,6 +1,15 @@
-abbr-name: HRI
-full-name: Human-Robot Interaction
+abbr-name: IEEE HRI
+full-name: ACM/IEEE International Conference on Human-Robot Interaction
 years:
+-
+  year: 2023
+  data: "2022-03-13"
+  url: https://humanrobotinteraction.org/2023/
+  info: Stockholm, Sweden
+  -
+    type: Paper
+    data: "2022-10-03"
+
 -
   year: 2021
   date: "2021-03-09"
