@@ -12,11 +12,11 @@ years:
     date: "TBD"
   -
 -
-  year: 2024
-    date: "2024-05-13"
-    url: https://www.icra2024.org/
-    info: Yokohama, Japan
-    submissions:
-    -
-      type: Paper
-      date: "TBD"
+　year: 2024
+　date: "2024-05-13"
+　url: https://www.icra2024.org/
+　info: Yokohama, Japan
+　submissions:
+  -
+  　type: Paper
+    date: "TBD"
