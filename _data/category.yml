@@ -15,6 +15,7 @@ ALL:
   - IEEE_VR
   - IROS
   - HRI
+  - ICRA
 
 Domestic:
   - Robomech
