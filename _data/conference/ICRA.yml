@@ -1,0 +1,22 @@
+abbr-name: IEEE ICRA
+full-name: IEEE International Conference on Robotics and Automation
+years:
+-
+  year: 2023
+  date: "2023-05-29"
+  url : https://www.icra2023.org/
+  info: ExCeL, London, UK
+  submissions:
+  -
+    type: Paper
+    date: "TBD"
+  -
+-
+  year: 2024
+    date: "2024-05-13"
+    url: https://www.icra2024.org/
+    info: Yokohama, Japan
+    submissions:
+      - type: Paper
+        date: "TBD"
+    -
