@@ -13,6 +13,7 @@ ALL:
   - Haptics_Symposium
   - WHC
   - IEEE_VR
+  - IROS
 
 Domestic:
   - Robomech
@@ -31,3 +32,6 @@ Haptics:
 
 VR:
   - IEEE_VR
+
+Robotics:
+  - IROS
