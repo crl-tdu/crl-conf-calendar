@@ -1,0 +1,38 @@
+abbr-name: IIP
+full-name: IIP2022 情報・知能・精密機器部門（IIP部門）講演会
+years:
+  - year: 2022
+    date: "2022-03-07"
+    url : https://www.jsme.or.jp/iip/Japanese/Events/Data/2022/IIP2022-annai.html
+    info: ONLINE
+    submissions:
+      - type: Register
+        date: "2021-12-03"
+      - type: Register(Extended)
+        date: "2021-12-27"
+      - type: Register(Final)
+        date: "2022-01-07"  
+      - type: Paper
+        date: "2022-01-28"
+  - year: 2021
+    date: "2021-03-08"
+    url : https://www.jsme.or.jp/iip/Japanese/Events/Data/2021/IIP2021-annai.html
+    info: ONLINE
+    submissions:
+      - type: Register
+        date: "2020-12-04"
+      - type: Register(Extended)
+        date: "2020-12-18"
+      - type: Register(Final)
+        date: "2020-12-28"
+      - type: Paper
+        date: "2022-01-22"
+  - year: 2020
+    date: "2020-03-26"
+    url : https://www.jsme.or.jp/iip/Japanese/Events/Data/2020/IIP2020-annai.html
+    info: Tokyo, Japan
+    submissions:
+      - type: Register
+        date: "2020-01-10"
+      - type: Paper
+        date: "2022-02-14"

@@ -16,13 +16,14 @@ ALL:
   - IROS
   - HRI
   - ICRA
+  - IIP
 
 Domestic:
   - Robomech
   - SICE-SI
   - IEEJ-C
   - IEEJ-D
-
+  - IIP
 International:
   - SAMCON
   - INTERACT
