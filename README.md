@@ -12,6 +12,8 @@ Conference data is stored as `_data/conference/*.yml`, where `*` is an abbreviat
 
 Please append new conference in `_data/category.yml` when you add it. Then, the conference will appear on the website.
 
+If you add a new category, you MUST submit in `_pages/*.md`.
+
 ### Sample format of conference data
 
 ```
