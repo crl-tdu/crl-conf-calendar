@@ -13,6 +13,8 @@ years:
       - type: Register(Final)
         date: "2022-01-07"  
       - type: Paper
+        date: "2022-01-21"
+      - type: Paper(Final)
         date: "2022-01-28"
   - year: 2021
     date: "2021-03-08"
@@ -26,7 +28,7 @@ years:
       - type: Register(Final)
         date: "2020-12-28"
       - type: Paper
-        date: "2022-01-22"
+        date: "2021-01-22"
   - year: 2020
     date: "2020-03-26"
     url : https://www.jsme.or.jp/iip/Japanese/Events/Data/2020/IIP2020-annai.html
@@ -35,4 +37,4 @@ years:
       - type: Register
         date: "2020-01-10"
       - type: Paper
-        date: "2022-02-14"
+        date: "2020-02-14"
