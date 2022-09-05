@@ -17,6 +17,7 @@ ALL:
   - HRI
   - ICRA
   - IIP
+  - MIPE
 
 Domestic:
   - Robomech
@@ -24,6 +25,7 @@ Domestic:
   - IEEJ-C
   - IEEJ-D
   - IIP
+
 International:
   - SAMCON
   - INTERACT
@@ -34,6 +36,7 @@ International:
   - IROS
   - HRI
   - ICRA
+  - MIPE
 
 Haptics:
   - Eurohaptics

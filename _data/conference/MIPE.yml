@@ -1,0 +1,15 @@
+abbr-name: MIPE
+full-name: JSME-IIP/ASME-ISPS Joint Conference on Micromechatronics for Information and Precision Equipment
+years:
+  - year: 2022
+    date: "2022-08-28"
+    url : https://www.nagoya-mipe2022.org/
+    info: Nagoya, Japan
+    submissions:
+      - type: Abstract submission(Extended)
+        date: "2022-04-14"
+      - type: Extended Abstract submission(Extended)
+        date: "2022-07-15"
+      - type: Full-paper paper submission
+        date: "2022-10-31"
+
