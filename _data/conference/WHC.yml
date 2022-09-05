@@ -1,6 +1,18 @@
 abbr-name: WHC
 full-name: IEEE World Haptics Conference
 years:
+  - year: 2023
+    date: "2023-7-10"
+    url : https://2023.worldhaptics.org/
+    info: Delft, Netherlands
+    submissions:
+      - type: IEEE Transactions on Haptics Short Paper
+        date: "2023-12-16"
+      - type: Technical Paper Submission
+        date: "2023-02-03"
+      - type: Camera-ready publication
+        date: "2023-05-26"
+
   - year: 2019
     date: "2019-07-09"
     url : http://www.worldhaptics2019.org/
