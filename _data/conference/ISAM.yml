@@ -1,0 +1,20 @@
+abbr-name: ISAM
+full-name: 産業計測制御研究会（ISAM研究会）
+years:
+  - year: 2022
+    date: "2022-12-01"
+    info: Aichi, Japan
+    submissions:
+      - type: Register
+        date: "2022-10-20"
+      - type: Paper
+        date: "2022-11-10"
+  - year: 2021
+    date: "2021-11-30"
+    url : https://workshop.iee.or.jp/sbtk/cgi-bin/sbtk-showprogram.cgi?workshopid=SBW00007A31
+    info: ONLINE
+    submissions:
+      - type: Register
+        date: "2021-10-18"
+      - type: Paper
+        date: "2021-11-09"
